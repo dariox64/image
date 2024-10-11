@@ -339,7 +339,7 @@ export default class ImageTool implements BlockTool {
     this._data.caption = data.caption || '';
     this.ui.fillCaption(this._data.caption);
 
-    Tunes.tunes.concat(this.config.actions).forEach(({ name: tune }) => {
+    ImageTool.tunes.concat(this.config.actions ?? []).forEach(({ name: tune }) => {
       const value = typeof data[tune as keyof ImageToolData] !== 'undefined' ? data[tune as keyof ImageToolData] === true || data[tune as keyof ImageToolData] === 'true' : false;
 
       this.setTune(tune as keyof ImageToolData, value);

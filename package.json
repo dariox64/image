@@ -37,7 +37,7 @@
     "name": "CodeX mod dariox64",
     "email": "team@ifmo.su"
   },
-  "devDependencies": {
+"devDependencies": {
     "@codexteam/ajax": "^4.2.0",
     "@editorjs/editorjs": "2.30.0-rc.12",
     "@typescript-eslint/eslint-plugin": "^7.16.1",

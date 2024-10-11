@@ -1,15 +1,18 @@
 {
-  "name": "@editorjs/image",
-  "version": "2.9.3",
+  "name": "@dariox64/image",
+  "version": "2.9.3-fork1",
   "keywords": [
     "codex editor",
     "image",
     "editor.js",
     "editorjs"
   ],
-  "description": "Image Tool for Editor.js",
+  "description": "Image Tool for Editor.js - original @editorjs/image",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dariox64/image.git"
+  },
   "files": [
     "dist"
   ],
@@ -31,7 +34,7 @@
     "lint:fix": "eslint --fix"
   },
   "author": {
-    "name": "CodeX",
+    "name": "CodeX mod dariox64",
     "email": "team@ifmo.su"
   },
   "devDependencies": {
